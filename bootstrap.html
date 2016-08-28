@@ -3,19 +3,173 @@
 <head>
     <meta charset="UTF-8">
     <title>bootstrap</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">  <!--使布局变成交互式布局-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
     <script src="static/bootstrap/js/jquery-3.1.0.min.js"></script>
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="jumbotron">
-        巨幕
+<div class="jumbotron">
+    巨幕。。。
+</div>
+<div class="container">
+    <div class="col-sm-4">
+        <h1>
+            headline1...
+        </h1>
+        <p>
+            paragraph1...
+        </p>
+    </div>
+    <div class="col-sm-4">
+        <h1>
+            headline2...
+        </h1>
+        <p>
+            paragraph2...
+        </p>
+    </div>
+    <div class="col-sm-4">
+        <h1>
+            headline3...
+        </h1>
+        <p>
+            paragraph3...
+        </p>
+    </div>
+    <div class="col-sm-12">
+        <h1>headline1...</h1>
+        <h2>headline2...</h2>
+        <h3>headline3...</h3>
+        <h4>headline4...</h4>
+        <h5>headline5...</h5>
+        <h6>headline6...</h6>
+        <small>small...</small>
+        <mark>mark...</mark>
+        <abbr title="Hyper Text Markup Language">HTML</abbr>
+        <blockquote class="blockquote-reverse">
+            <p>欲穷千里目</p>
+            <p>更上一层楼</p>
+            <footer>李白</footer>
+        </blockquote>
+        <dl>
+            <dt>Tiger</dt>
+            <dd>Tiger is a...</dd>
+            <dt>Lion</dt>
+            <dd>Lion is a...</dd>
+        </dl>
+        <code>java</code>
+        <kbd>Ctrl + p</kbd>
+        <pre>
+        欲穷千里目
+        更上一层楼
+        </pre>
+        <p class="text-muted bg-danger">.text-muted</p>
+        <p class="text-primary">.text-primary</p>
+        <p class="text-success">.text-success</p>
+        <p class="text-info">.text-info</p>
+        <p class="text-warning">.text-warning</p>
+        <p class="text-danger">.text-danger</p>
+    </div>
+    <div class="col-sm-12">
+        <div class="table-responsive">
+            <table class="table table-striped">
+                <tr>
+                    <th>name</th>
+                    <th>gender</th>
+                    <th>city</th>
+                    <th>age</th>
+                </tr>
+                <tr>
+                    <td>Zhangsan Zhangsan Zhangsan Zhangsan Zhangsan Zhangsan Zhangsan</td>
+                    <td>male</td>
+                    <td>Beijing</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Zhangsan</td>
+                    <td>male</td>
+                    <td>Beijing</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Zhangsan</td>
+                    <td>male</td>
+                    <td>Beijing</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Zhangsan</td>
+                    <td>male</td>
+                    <td>Beijing</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Zhangsan</td>
+                    <td>male</td>
+                    <td>Beijing</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Zhangsan</td>
+                    <td>male</td>
+                    <td>Beijing</td>
+                    <td>18</td>
+                </tr>
+                <tr>
+                    <td>Zhangsan</td>
+                    <td>male</td>
+                    <td>Beijing</td>
+                    <td>18</td>
+                </tr>
+            </table>
         </div>
-        <h1> h1..</h1>
-        <p>p..</p>
+        <p>end....</p>
+    </div>
+    <div class="col-sm-12">
+        <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-responsive-item" src="http://player.youku.com/embed/XMTcwMTU0MTYyOA=="
+                    frameborder="0"></iframe>
+        </div>
+    </div>
+    <img class="img-thumbnail" src="image/bg.png" alt="秦始皇" title="秦始皇">
+    <h1>h1...</h1>
+    <div class="well">well...</div>
+    <div class="well well-sm">well small...</div>
+    <div class="well well-lg">well large...</div>
+    <div class="alert alert-danger">
+        <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+        alert...
+    </div>
+    <button class="btn btn-warning btn-lg">button...</button>
+    <button class="btn btn-primary btn-lg active">active...</button>
+    <button class="btn btn-info btn-lg disabled">disabled...</button>
+    <button class="btn btn-warning btn-block">button block...</button>
+
+    <div class="btn btn-block btn-group-justified">
+        <button class="btn btn-primary">btn1...</button>
+        <button class="btn btn-primary">btn2...</button>
+        <button class="btn btn-primary">btn3...</button>
     </div>
 
+    <div class="btn-group">
+        <button class="btn btn-primary">menu1...</button>
+        <button class="btn btn-primary">menu2...</button>
+        <div class="btn-group">
+            <button class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                menu3... <span class="caret"></span>
+            </button>
+            <ul class="dropdown-menu" role="menu">
+                <li><a href="">menu31...</a></li>
+                <li><a href="">menu32...</a></li>
+                <li><a href="">menu33...</a></li>
+            </ul>
+        </div>
+    </div>
+    <span class="glyphicon glyphicon-alert"></span>
+    <span class="glyphicon glyphicon-apple"></span>
+    <span class="glyphicon glyphicon-earphone"></span>
+    <div style="height: 500px;"></div>
+</div>
 </body>
 </html>
