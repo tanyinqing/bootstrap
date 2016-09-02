@@ -3,16 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>bootstrap</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">
-    <script src="static/bootstrap/js/jquery-3.1.0.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">     <!--给布局添加自适应-->
+    <link rel="stylesheet" href="static/bootstrap/css/bootstrap.min.css">   引入样式
+    <script src="static/bootstrap/js/jquery-3.1.0.min.js"></script>    <!--添加javascript-->
     <script src="static/bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 <div class="jumbotron">
     巨幕。。。
 </div>
-<div class="container">
+<div class="container">  一共12个格  分成3列
     <div class="col-sm-4">
         <h1>
             headline1...
@@ -45,9 +45,9 @@
         <h5>headline5...</h5>
         <h6>headline6...</h6>
         <small>small...</small>
-        <mark>mark...</mark>
+        <mark>mark...</mark>  <!--字体是黄底-->
         <abbr title="Hyper Text Markup Language">HTML</abbr>
-        <blockquote class="blockquote-reverse">
+        <blockquote class="blockquote-reverse">   <!--标明是引用-->
             <p>欲穷千里目</p>
             <p>更上一层楼</p>
             <footer>李白</footer>
@@ -58,12 +58,13 @@
             <dt>Lion</dt>
             <dd>Lion is a...</dd>
         </dl>
-        <code>java</code>
+        <code>java</code>  <!--标明是代码-->
         <kbd>Ctrl + p</kbd>
         <pre>
         欲穷千里目
         更上一层楼
         </pre>
+        <!--给字体不同的颜色-->
         <p class="text-muted bg-danger">.text-muted</p>
         <p class="text-primary">.text-primary</p>
         <p class="text-success">.text-success</p>
@@ -71,6 +72,7 @@
         <p class="text-warning">.text-warning</p>
         <p class="text-danger">.text-danger</p>
     </div>
+    <!--以下是生成一个表格-->
     <div class="col-sm-12">
         <div class="table-responsive">
             <table class="table table-striped">
@@ -126,6 +128,7 @@
         </div>
         <p>end....</p>
     </div>
+    <!--引入一个视频框-->
     <div class="col-sm-12">
         <div class="embed-responsive embed-responsive-4by3">
             <iframe class="embed-responsive-item" src="http://player.youku.com/embed/XMTcwMTU0MTYyOA=="
